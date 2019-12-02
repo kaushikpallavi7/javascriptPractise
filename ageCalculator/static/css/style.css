@@ -1,0 +1,40 @@
+.flex-box-container-1{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+#flex-box-result{
+    border: 1px solid black;
+}
+
+h3{
+    margin-left: 10px;
+    display: inline;
+}
+
+#age-input{
+ margin: 10px 0px 20px 50px;
+ border: 1px solid black;
+}
+
+.main-container{
+    margin: 10 auto;
+    width: 75%;
+    /* margin: 10px; */
+    text-align: center;
+}
+
+.flex-box-ask-age{
+    margin-top: 20px;
+    display: flex;
+    align-content: flex-start;
+}
